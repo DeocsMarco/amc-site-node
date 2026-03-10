@@ -24,7 +24,6 @@ const buses = [
   { src: '/assets/BUS/8.5M AIRCON MINI BUS.png', name: '8.5M Aircon Mini Bus' },
   { src: '/assets/BUS/7M AIRCON MINI BUS.png', name: '7M Aircon Mini Bus' },
   { src: '/assets/BUS/FRONT ENGINE CENTER DOOR BUS.png', name: 'Front Engine Center Door Bus' },
-  { src: '/assets/BUS/BGC BUS.png', name: 'BGC Bus' },
 ];
 
 const uvs = [

@@ -1,4 +1,4 @@
-@import "tailwindcss";
+﻿@import "tailwindcss";
 
 :root {
   --color-primary: #000064;
@@ -330,4 +330,156 @@ html.is-loading body > *:not(.page-loader) { opacity: 0; }
   .clients__grid { grid-template-columns: repeat(2, 1fr); }
 
   .featured__btn { width: 32px; height: 32px; }
+}
+/* ============================================
+   Vehicles Page
+   ============================================ */
+
+/* Hero */
+.vp-hero {
+  position: relative;
+  background: var(--color-primary);
+  color: var(--color-white);
+  padding: calc(var(--header-height) + var(--space-2xl)) 0 calc(var(--space-2xl) + 50px);
+  overflow: hidden;
+}
+.vp-hero__title {
+  font-size: var(--text-3xl);
+  font-weight: 700;
+  margin-bottom: var(--space-sm);
+}
+.vp-hero__subtitle {
+  font-size: var(--text-lg);
+  opacity: 0.8;
+  max-width: 540px;
+}
+/* White diagonal slant */
+.vp-hero__slant {
+  position: absolute;
+  bottom: -60px; left: -10%; right: -10%;
+  height: 120px;
+  background: var(--color-white);
+  transform: skewY(-2deg);
+  transform-origin: bottom left;
+}
+
+/* Filter tabs — sticky below header */
+.vf-tabs {
+  position: sticky;
+  top: var(--header-height);
+  z-index: 100;
+  background: var(--color-white);
+  border-bottom: 1px solid var(--color-border);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+.vf-tab-list {
+  display: flex;
+  gap: 6px;
+  padding: var(--space-md) 0;
+  overflow-x: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.vf-tab-list::-webkit-scrollbar { display: none; }
+.vf-tab {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 6px var(--space-md);
+  border-radius: 20px;
+  font-size: var(--text-sm);
+  font-weight: 500;
+  color: var(--color-text-light);
+  background: var(--color-white);
+  border: 1.5px solid var(--color-border);
+  cursor: pointer;
+  transition: var(--transition);
+  white-space: nowrap;
+}
+.vf-tab:hover {
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+}
+.vf-tab--active {
+  background: var(--color-primary);
+  color: var(--color-white);
+  border-color: var(--color-primary);
+}
+.vf-tab__count {
+  font-size: var(--text-xs);
+  opacity: 0.7;
+  font-weight: 400;
+}
+.vf-tab--active .vf-tab__count { opacity: 0.85; }
+
+/* Content area */
+.vf-content {
+  padding: var(--space-xl) 0 var(--space-2xl);
+}
+.vf-category {
+  margin-bottom: var(--space-2xl);
+}
+.vf-category__title {
+  font-size: var(--text-xl);
+  font-weight: 600;
+  color: var(--color-primary);
+  margin-bottom: var(--space-lg);
+  padding-bottom: var(--space-xs);
+  border-bottom: 2px solid var(--color-secondary);
+  display: inline-block;
+}
+
+/* Vehicle card grid */
+.vf-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+  gap: var(--space-md);
+}
+.vf-card {
+  background: var(--color-white);
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid var(--color-border);
+  transition: transform var(--transition), box-shadow var(--transition), border-color var(--transition);
+  cursor: pointer;
+}
+.vf-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+  border-color: var(--color-primary);
+}
+.vf-card__img-wrap {
+  background: var(--color-bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  aspect-ratio: 4/3;
+  padding: var(--space-sm);
+  overflow: hidden;
+}
+.vf-card__img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transition: transform var(--transition);
+}
+.vf-card:hover .vf-card__img { transform: scale(1.05); }
+.vf-card__name {
+  padding: var(--space-sm) var(--space-md);
+  font-size: var(--text-sm);
+  font-weight: 500;
+  color: var(--color-text);
+  text-align: center;
+  line-height: 1.3;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .vf-grid { grid-template-columns: repeat(3, 1fr); }
+}
+@media (max-width: 600px) {
+  .vf-grid { grid-template-columns: repeat(2, 1fr); gap: 8px; }
+  .vf-card__name { font-size: 0.6rem; padding: 4px 6px; }
+  .vp-hero__title { font-size: var(--text-2xl); }
 }

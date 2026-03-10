@@ -15,6 +15,9 @@ export default function Header() {
     return () => window.removeEventListener('scroll', onScroll);
   }, []);
 
+  const isHome = pathname === '/';
+  const logoWhite = !scrolled && !isHome; // white on inner pages when not scrolled
+
   const links = [
     { href: '/vehicles', label: 'VEHICLES' },
     { href: '/facilities', label: 'FACILITIES' },
@@ -31,6 +34,7 @@ export default function Header() {
             width={160}
             height={40}
             className="logo__img"
+            style={logoWhite ? { filter: 'brightness(0) invert(1)' } : undefined}
             priority
           />
         </Link>
