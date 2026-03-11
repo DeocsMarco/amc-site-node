@@ -3,8 +3,14 @@ import type { Metadata } from 'next';
 import CountUp from '@/components/CountUp';
 
 export const metadata: Metadata = {
-  title: 'About Us | Almazora Motors Corporation',
-  description: 'Over a century of vehicle body building excellence. Learn about the history, vision, and mission of Almazora Motors Corporation.',
+  title: 'About Us | 100+ Years of Vehicle Body Building Excellence',
+  description: 'Learn about Almazora Motors Corporation\'s century-long legacy in vehicle body building — from the first kalesa in 1920 to modern buses, Special Purpose Vehicles, and Electric Vehicles. Philippines\' trusted manufacturer.',
+  openGraph: {
+    title: 'About Almazora Motors Corporation | 100+ Years of Excellence',
+    description: 'From the first kalesa in 1920 to modern electric vehicles — a century of vehicle body building excellence in the Philippines.',
+    url: 'https://www.almazoramotors.com/about',
+    images: [{ url: '/assets/HISTORY/1990%20MITSUBISHI%20YELLOW%20BUS%20LINE%20INC.png', width: 691, height: 486, alt: 'Almazora Motors — Mitsubishi Yellow Bus Line' }],
+  },
 };
 
 const stats = [

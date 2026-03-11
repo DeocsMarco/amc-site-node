@@ -2,8 +2,14 @@ import Image from 'next/image';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Facilities | Almazora Motors Corporation',
-  description: 'State-of-the-art manufacturing facilities equipped with the latest technology.',
+  title: 'Manufacturing Facilities | Bus & Special Purpose Vehicle Plants',
+  description: 'Explore Almazora Motors Corporation\'s 9 specialized manufacturing plants in the Philippines — dedicated facilities for bus body building, Special Purpose Vehicles, and Utility Vehicle production with full metal fabrication and quality assurance capabilities.',
+  openGraph: {
+    title: 'Manufacturing Facilities | Almazora Motors Corporation',
+    description: '9 specialized plants for bus body building, Special Purpose Vehicles, and Utility Vehicle production in the Philippines.',
+    url: 'https://www.almazoramotors.com/facilities',
+    images: [{ url: '/assets/PLANT/AMC BUS.png', width: 1200, height: 630, alt: 'Almazora Motors — Manufacturing Facility' }],
+  },
 };
 
 const plants = [
