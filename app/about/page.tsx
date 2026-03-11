@@ -135,18 +135,6 @@ const timeline = [
   },
 ];
 
-const clients = [
-  { src: '/assets/CLIENTS/coca-cola.png', name: 'Coca-Cola' },
-  { src: '/assets/CLIENTS/san-miguel.png', name: 'San Miguel' },
-  { src: '/assets/CLIENTS/jm.png', name: 'JM' },
-  { src: '/assets/CLIENTS/jt-express.png', name: 'J&T Express' },
-  { src: '/assets/CLIENTS/zest-air.png', name: 'Zest Air' },
-  { src: '/assets/CLIENTS/kia.png', name: 'KIA' },
-  { src: '/assets/CLIENTS/isuzu.png', name: 'Isuzu' },
-  { src: '/assets/CLIENTS/mitsubishi.png', name: 'Mitsubishi' },
-  { src: '/assets/CLIENTS/fuso.png', name: 'Fuso' },
-];
-
 export default function AboutPage() {
   return (
     <div className="about-page">
@@ -317,22 +305,6 @@ export default function AboutPage() {
               ))}
             </div>
 
-          </div>
-        </div>
-      </section>
-
-      {/* â‘¦ Clients */}
-      <section className="au-clients">
-        <div className="vp-hero__slant au-clients__slant-top" />
-        <div className="container">
-          <span className="au-eyebrow au-eyebrow--light">Who We Serve</span>
-          <h2 className="au-clients__heading">Our Clients</h2>
-          <div className="au-clients__grid">
-            {clients.map((c, i) => (
-              <div key={i} className="au-client reveal">
-                <Image src={c.src} alt={c.name} width={140} height={70} style={{ width: '100%', height: '100%', objectFit: 'contain' }} unoptimized />
-              </div>
-            ))}
           </div>
         </div>
       </section>
