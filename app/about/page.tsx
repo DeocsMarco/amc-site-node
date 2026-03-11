@@ -180,14 +180,23 @@ export default function AboutPage() {
               </p>
             </div>
             <div className="au-intro__image reveal-right">
-              <Image
-                src="/assets/HISTORY/1990%20MITSUBISHI%20YELLOW%20BUS%20LINE%20INC.png"
-                alt="Almazora manufacturing"
-                width={600}
-                height={420}
-                style={{ width: '100%', height: 'auto', borderRadius: '8px' }}
-                unoptimized
-              />
+              <div className="au-mosaic">
+                <div className="au-mosaic__item au-mosaic__item--a">
+                  <Image src="/assets/HISTORY/1990%20MITSUBISHI%20YELLOW%20BUS%20LINE%20INC.png" alt="Mitsubishi Yellow Bus Line" fill style={{ objectFit: 'cover' }} unoptimized />
+                </div>
+                <div className="au-mosaic__item au-mosaic__item--b">
+                  <Image src="/assets/HISTORY/1920%20Kalesa.png" alt="1920 Kalesa" fill style={{ objectFit: 'cover' }} unoptimized />
+                </div>
+                <div className="au-mosaic__item au-mosaic__item--c">
+                  <Image src="/assets/HISTORY/1945%20JARDINERA%20BUS.png" alt="1945 Jardinera Bus" fill style={{ objectFit: 'cover' }} unoptimized />
+                </div>
+                <div className="au-mosaic__item au-mosaic__item--d">
+                  <Image src="/assets/HISTORY/1970-1989%20VICTORY%20LINER%20BUS%20v2.png" alt="Victory Liner Bus" fill style={{ objectFit: 'cover' }} unoptimized />
+                </div>
+                <div className="au-mosaic__item au-mosaic__item--e">
+                  <Image src="/assets/HISTORY/2017%20isuzu%20puv%20class%202.png" alt="2017 Isuzu PUV" fill style={{ objectFit: 'cover' }} unoptimized />
+                </div>
+              </div>
             </div>
           </div>
         </div>
