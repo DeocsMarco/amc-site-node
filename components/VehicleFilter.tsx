@@ -49,7 +49,7 @@ const categories: Category[] = [
       { src: '/assets/SPV light/REF VAN bg.png', name: 'Ref Van' },
       { src: '/assets/SPV light/MOBILE ATM bg.png', name: 'Mobile ATM' },
       { src: '/assets/SPV light/MOBILE BEER TRUCK bg.png', name: 'Mobile Beer Truck' },
-      { src: '/assets/SPV light/MOBILE EV KITCHEN bg.png', name: 'Mobile EV Kitchen' },
+      { src: '/assets/SPV light/MOBILE EV KITCHEN bg.png', name: 'Mobile Electric Vehicle Kitchen' },
       { src: '/assets/SPV light/MOBILE FOOD STORE bg.png', name: 'Mobile Food Store' },
       { src: '/assets/SPV light/MOBILE STORE bg.png', name: 'Mobile Store' },
       { src: '/assets/SPV light/MOBILE SCHOOL SERVICE bg.png', name: 'Mobile School Service' },
@@ -178,4 +178,5 @@ export default function VehicleFilter() {
     </div>
   );
 }
+
 

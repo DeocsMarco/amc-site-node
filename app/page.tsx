@@ -47,7 +47,7 @@ const lightSpv = [
   { src: '/assets/SPV light/REF VAN bg.png', name: 'Ref Van' },
   { src: '/assets/SPV light/MOBILE ATM bg.png', name: 'Mobile ATM' },
   { src: '/assets/SPV light/MOBILE BEER TRUCK bg.png', name: 'Mobile Beer Truck' },
-  { src: '/assets/SPV light/MOBILE EV KITCHEN bg.png', name: 'Mobile EV Kitchen' },
+  { src: '/assets/SPV light/MOBILE EV KITCHEN bg.png', name: 'Mobile Electric Vehicle Kitchen' },
   { src: '/assets/SPV light/MOBILE FOOD STORE bg.png', name: 'Mobile Food Store' },
   { src: '/assets/SPV light/MOBILE STORE bg.png', name: 'Mobile Store' },
   { src: '/assets/SPV light/MOBILE SCHOOL SERVICE bg.png', name: 'Mobile School Service' },
@@ -66,16 +66,16 @@ const lightSpv = [
   { src: '/assets/SPV light/PRISONERS VAN bg.png', name: 'Prisoners Van' },
   { src: '/assets/SPV light/PET GROOMING VAN.png', name: 'Pet Grooming Van' },
   { src: '/assets/SPV light/POPE MOBILE.png', name: 'Pope Mobile' },
-  { src: '/assets/SPV light/TRAVIZ PUV CLASS 1.png', name: 'Traviz PUV Class 1' },
+  { src: '/assets/SPV light/TRAVIZ PUV CLASS 1.png', name: 'Traviz Public Utility Vehicle Class 1' },
   { src: '/assets/SPV light/MITSUBISHI CLASS 1.png', name: 'Mitsubishi Class 1' },
   { src: '/assets/SPV light/TROOP CARRIER LIGHT.png', name: 'Troop Carrier Light' },
   { src: '/assets/SPV light/TROOP CARRIER LIGHT v2 bg.png', name: 'Troop Carrier Light V2' },
 ];
 
 const mediumSpv = [
-  { src: '/assets/SPV/CLASS 2 PUV bg.png', name: 'Class 2 PUV' },
-  { src: '/assets/SPV/CLASS 3 PUV bg.png', name: 'Class 3 PUV' },
-  { src: '/assets/SPV/FIRE TRUCK SPV  bg.png', name: 'Fire Truck SPV' },
+  { src: '/assets/SPV/CLASS 2 PUV bg.png', name: 'Class 2 Public Utility Vehicle' },
+  { src: '/assets/SPV/CLASS 3 PUV bg.png', name: 'Class 3 Public Utility Vehicle' },
+  { src: '/assets/SPV/FIRE TRUCK SPV  bg.png', name: 'Fire Truck Special Purpose Vehicle' },
   { src: '/assets/SPV/22 FOOTER- WING VAN bg.png', name: '22 Footer Wing Van' },
   { src: '/assets/SPV/GARBAGE COMPACTOR bg.png', name: 'Garbage Compactor' },
   { src: '/assets/SPV/MOBILE OFFICE bg.png', name: 'Mobile Office' },
@@ -213,5 +213,6 @@ export default function Home() {
     </>
   );
 }
+
 
 
