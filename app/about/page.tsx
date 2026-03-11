@@ -125,7 +125,7 @@ const timeline = [
     year: '2024',
     title: 'New Expansion Plant',
     desc: 'Groundbreaking of the new expansion plant, increasing production capacity to meet growing demand.',
-    images: [],
+    images: ['/assets/PLANT/AMC SPV5.jpg'],
   },
   {
     year: '2025',
