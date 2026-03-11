@@ -1,4 +1,4 @@
-﻿import Image from 'next/image';
+import Image from 'next/image';
 import type { Metadata } from 'next';
 import CountUp from '@/components/CountUp';
 
@@ -58,7 +58,7 @@ const timeline = [
     images: ['/assets/HISTORY/1945%20JARDINERA%20BUS.png'],
   },
   {
-    year: '1970â€“1989',
+    year: '1970-1989',
     title: 'Growth & Partnerships',
     desc: 'Establishment of Almazora Truck Body Builder and partnership with Mitsubishi, Hino, and Isuzu.',
     images: [
@@ -77,7 +77,7 @@ const timeline = [
     ],
   },
   {
-    year: '1994â€“1995',
+    year: '1994-1995',
     title: 'L300 Expansion',
     desc: 'Awarding of L300 FB contract and expansion of Plant 2 production.',
     images: ['/assets/HISTORY/1995%20L300%20PLANT.jpg'],
@@ -110,7 +110,7 @@ const timeline = [
     ],
   },
   {
-    year: '2018â€“2019',
+    year: '2018-2019',
     title: 'Heavy Vehicle Expansion',
     desc: 'Awarding of L300 and L300 Special Purpose Vehicle Plant 2, expanding into heavy-duty special purpose vehicles.',
     images: ['/assets/HISTORY/2018%20SCOOP%20END%20DUMPTRUCK.jpg'],
