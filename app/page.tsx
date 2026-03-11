@@ -113,13 +113,27 @@ const heavySpv = [
 const clients = [
   { src: '/assets/CLIENTS/coca-cola.png', alt: 'Coca-Cola' },
   { src: '/assets/CLIENTS/san-miguel.png', alt: 'San Miguel Corporation' },
+  { src: '/assets/CLIENTS/pepsi.png', alt: 'Pepsi' },
   { src: '/assets/CLIENTS/jm.png', alt: 'JM' },
   { src: '/assets/CLIENTS/jt-express.png', alt: 'J&T Express' },
   { src: '/assets/CLIENTS/zest-air.png', alt: 'Zest Air' },
+  { src: '/assets/CLIENTS/pldt.png', alt: 'PLDT' },
+  { src: '/assets/CLIENTS/meralco.png', alt: 'Meralco' },
+  { src: '/assets/CLIENTS/ayala.png', alt: 'Ayala Corporation' },
+  { src: '/assets/CLIENTS/ab.png', alt: 'AB' },
+  { src: '/assets/CLIENTS/pm.png', alt: 'PM' },
+  { src: '/assets/CLIENTS/vl.png', alt: 'Victory Liner' },
+  { src: '/assets/CLIENTS/toyota.png', alt: 'Toyota' },
   { src: '/assets/CLIENTS/kia.png', alt: 'Kia' },
   { src: '/assets/CLIENTS/isuzu.png', alt: 'Isuzu' },
   { src: '/assets/CLIENTS/mitsubishi.png', alt: 'Mitsubishi' },
   { src: '/assets/CLIENTS/fuso.png', alt: 'Fuso' },
+  { src: '/assets/CLIENTS/hino.png', alt: 'Hino' },
+  { src: '/assets/CLIENTS/man.png', alt: 'MAN Trucks' },
+  { src: '/assets/CLIENTS/ud trucks.png', alt: 'UD Trucks' },
+  { src: '/assets/CLIENTS/volvo.png', alt: 'Volvo' },
+  { src: '/assets/CLIENTS/vw.png', alt: 'Volkswagen' },
+  { src: '/assets/CLIENTS/benz.png', alt: 'Mercedes-Benz' },
 ];
 
 function ProductGrid({ items }: { items: { src: string; name: string }[] }) {
