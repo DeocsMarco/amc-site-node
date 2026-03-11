@@ -1,4 +1,4 @@
-import Image from 'next/image';
+﻿import Image from 'next/image';
 import FeaturedCarousel from '@/components/FeaturedCarousel';
 
 const carouselVehicles = [
@@ -104,10 +104,10 @@ const heavySpv = [
   { src: '/assets/SPV heavy/FLAT BED TRUCK bg.png', name: 'Flat Bed Truck' },
   { src: '/assets/SPV heavy/BROILER VAN bg.png', name: 'Broiler Van' },
   { src: '/assets/SPV heavy/20 PALLETS bg.png', name: '20 Pallets' },
-  { src: '/assets/SPV heavy/HINO IMPORTED bg.png', name: 'Hino Imported' },
+  { src: '/assets/SPV heavy/HINO 32FT WING VAN.png', name: 'Hino 32FT Wing Van' },
   { src: '/assets/SPV heavy/HINO FG8J 4X2 BOOM TRUCK WITH AUGER CRANE  bg.png', name: 'Hino FG8J 4x2 Boom Truck with Auger Crane' },
-  { src: '/assets/SPV heavy/ISUZU IMPORTED bg.png', name: 'Isuzu Imported' },
-  { src: '/assets/SPV heavy/FUSO IMPORTED bg.png', name: 'Fuso Imported' },
+  { src: '/assets/SPV heavy/ISUZU 32FT WING VAN.png', name: 'Isuzu 32FT Wing Van' },
+  { src: '/assets/SPV heavy/FUSO 32FT WING VAN.png', name: 'Fuso 32FT Wing Van' },
 ];
 
 const clients = [
@@ -165,7 +165,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Mobile text section — shown below KV on mobile only */}
+      {/* Mobile text section â€” shown below KV on mobile only */}
       <section className="hero__mobile-text">
         <div className="container">
           <h1 className="hero__mobile-title">Crafting Tomorrow&apos;s Journeys: Innovation, Quality, and Integrity</h1>
@@ -213,3 +213,4 @@ export default function Home() {
     </>
   );
 }
+

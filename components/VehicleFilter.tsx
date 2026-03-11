@@ -110,10 +110,10 @@ const categories: Category[] = [
       { src: '/assets/SPV heavy/FLAT BED TRUCK bg.png', name: 'Flat Bed Truck' },
       { src: '/assets/SPV heavy/BROILER VAN bg.png', name: 'Broiler Van' },
       { src: '/assets/SPV heavy/20 PALLETS bg.png', name: '20 Pallets' },
-      { src: '/assets/SPV heavy/HINO IMPORTED bg.png', name: 'Hino Imported' },
+      { src: '/assets/SPV heavy/HINO 32FT WING VAN.png', name: 'Hino 32FT Wing Van' },
       { src: '/assets/SPV heavy/HINO FG8J 4X2 BOOM TRUCK WITH AUGER CRANE  bg.png', name: 'Hino FG8J 4x2 Boom Truck with Auger Crane' },
-      { src: '/assets/SPV heavy/ISUZU IMPORTED bg.png', name: 'Isuzu Imported' },
-      { src: '/assets/SPV heavy/FUSO IMPORTED bg.png', name: 'Fuso Imported' },
+      { src: '/assets/SPV heavy/ISUZU 32FT WING VAN.png', name: 'Isuzu 32FT Wing Van' },
+      { src: '/assets/SPV heavy/FUSO 32FT WING VAN.png', name: 'Fuso 32FT Wing Van' },
     ],
   },
 ];

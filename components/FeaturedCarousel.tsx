@@ -50,7 +50,7 @@ export default function FeaturedCarousel() {
             {slides.map((slide, i) => (
               <div key={i} className={`featured__slide ${i === active ? 'featured__slide--active' : ''}`}>
                 <div className="featured__image">
-                  <Image src={slide.image} alt={slide.name} width={600} height={400} style={{ width: '100%', height: 'auto', objectFit: 'contain' }} unoptimized />
+                  <Image src={slide.image} alt={slide.name} fill style={{ objectFit: 'contain' }} unoptimized />
                 </div>
                 <div className="featured__info">
                   <h3 className="featured__name">{slide.name}</h3>

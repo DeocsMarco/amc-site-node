@@ -19,7 +19,7 @@ const plants = [
   {
     id: 'spv1',
     number: '02',
-    title: 'SPV1',
+    title: 'SPECIAL PURPOSE VEHICLE PLANT 1',
     desc: 'A view of the Special Purpose Vehicle manufacturing area, showcasing our production floor equipped for custom vehicle assembly and specialized fabrication work.',
     features: ['Custom SPV assembly', 'Fabrication workshop', 'Specialized tooling', 'Quality inspection'],
     hero: '/assets/PLANT/AMC SPV1.jpg',
@@ -28,7 +28,7 @@ const plants = [
   {
     id: 'spv2',
     number: '03',
-    title: 'SPV2',
+    title: 'SPECIAL PURPOSE VEHICLE PLANT 2',
     desc: 'The second section of our SPV plant, featuring dedicated stations for body fitting, component installation, and structural assembly of special purpose units.',
     features: ['Body fitting stations', 'Component installation', 'Structural assembly', 'In-process checks'],
     hero: '/assets/PLANT/AMC SPV2.jpg',
@@ -37,7 +37,7 @@ const plants = [
   {
     id: 'spv3',
     number: '04',
-    title: 'SPV3',
+    title: 'SPECIAL PURPOSE VEHICLE PLANT 3',
     desc: 'Our SPV staging and dispatch area where completed units undergo final inspection, documentation, and preparation for delivery to clients nationwide.',
     features: ['Final inspection area', 'Unit staging & dispatch', 'Documentation processing', 'Client handover prep'],
     hero: '/assets/PLANT/AMC SPV3.jpg',
@@ -46,7 +46,7 @@ const plants = [
   {
     id: 'spv4',
     number: '05',
-    title: 'SPV4',
+    title: 'SPECIAL PURPOSE VEHICLE PLANT 4',
     desc: 'Overhead view of the SPV production compound, highlighting the scale of our operations and the organized flow of vehicles through the manufacturing process.',
     features: ['Wide-span production bay', 'Organized vehicle flow', 'Multi-unit capacity', 'Efficient logistics'],
     hero: '/assets/PLANT/AMC SPV4.jpg',
@@ -55,7 +55,7 @@ const plants = [
   {
     id: 'spv5',
     number: '06',
-    title: 'SPV5',
+    title: 'SPECIAL PURPOSE VEHICLE PLANT 5',
     desc: 'The completed vehicle lot of our SPV facility, where finished units are parked and prepared for client inspection, registration, and final delivery.',
     features: ['Finished vehicle holding', 'Client inspection zone', 'Registration support', 'Fleet dispatch area'],
     hero: '/assets/PLANT/AMC SPV5.jpg',
