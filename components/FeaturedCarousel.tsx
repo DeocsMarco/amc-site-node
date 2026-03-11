@@ -1,4 +1,4 @@
-'use client';
+﻿'use client';
 import { useState, useEffect } from 'react';
 import Image from 'next/image';
 
@@ -11,21 +11,21 @@ const slides = [
   {
     image: '/assets/SPV/CLASS 2 PUV bg.png',
     name: 'Public Utility Vehicle',
-    desc: 'Modern PUV designed for efficient public transportation with improved passenger capacity and comfort.',
+    desc: 'Modern Public Utility Vehicle (PUV) designed for efficient public transportation with improved passenger capacity and comfort.',
   },
   {
     image: '/assets/SPV light/AMBULANCE.png',
-    name: 'Light Special Vehicle',
+    name: 'Light Special Purpose Vehicle',
     desc: 'Versatile light special vehicles customized for medical, commercial, and special purpose applications.',
   },
   {
     image: '/assets/SPV/FIRE TRUCK SPV  bg.png',
-    name: 'Medium Special Vehicle',
+    name: 'Medium Special Purpose Vehicle',
     desc: 'Robust medium-duty special vehicles engineered for emergency services, logistics, and industrial operations.',
   },
   {
     image: '/assets/SPV heavy/DUMP TRUCK bg.png',
-    name: 'Heavy Special Vehicle',
+    name: 'Heavy Special Purpose Vehicle',
     desc: 'Heavy-duty special vehicles built for demanding construction, mining, and hauling applications.',
   },
 ];
@@ -77,3 +77,4 @@ export default function FeaturedCarousel() {
     </section>
   );
 }
+

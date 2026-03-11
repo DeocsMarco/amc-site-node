@@ -1,4 +1,4 @@
-'use client';
+﻿'use client';
 import { useState } from 'react';
 import Image from 'next/image';
 
@@ -29,13 +29,13 @@ const categories: Category[] = [
     items: [
       { src: '/assets/UV/TAMARAW UTILITY VEHICLE bg.png', name: 'Tamaraw Utility Vehicle' },
       { src: '/assets/UV/TAMARAW PATROL CARRIER bg.png', name: 'Tamaraw Patrol Carrier' },
-      { src: '/assets/UV/TRAVIS UV bg.png', name: 'Travis UV' },
-      { src: '/assets/UV/KIA UV bg.png', name: 'Kia UV' },
+      { src: '/assets/UV/TRAVIS UV bg.png', name: 'Travis Utility Vehicle' },
+      { src: '/assets/UV/KIA UV bg.png', name: 'Kia Utility Vehicle' },
       { src: '/assets/UV/L300.png', name: 'L300' },
     ],
   },
   {
-    id: 'light', label: 'Light SPV', count: 35,
+    id: 'light', label: 'Light Special Purpose Vehicle', count: 35,
     items: [
       { src: '/assets/SPV light/AMBULANCE.png', name: 'Ambulance' },
       { src: '/assets/SPV light/RESCUE AMBULANCE PICK UP TYPE.png', name: 'Rescue Ambulance Pick Up Type' },
@@ -68,18 +68,18 @@ const categories: Category[] = [
       { src: '/assets/SPV light/PRISONERS VAN bg.png', name: 'Prisoners Van' },
       { src: '/assets/SPV light/PET GROOMING VAN.png', name: 'Pet Grooming Van' },
       { src: '/assets/SPV light/POPE MOBILE.png', name: 'Pope Mobile' },
-      { src: '/assets/SPV light/TRAVIZ PUV CLASS 1.png', name: 'Traviz PUV Class 1' },
+      { src: '/assets/SPV light/TRAVIZ PUV CLASS 1.png', name: 'Traviz Public Utility Vehicle Class 1' },
       { src: '/assets/SPV light/MITSUBISHI CLASS 1.png', name: 'Mitsubishi Class 1' },
       { src: '/assets/SPV light/TROOP CARRIER LIGHT.png', name: 'Troop Carrier Light' },
       { src: '/assets/SPV light/TROOP CARRIER LIGHT v2 bg.png', name: 'Troop Carrier Light V2' },
     ],
   },
   {
-    id: 'medium', label: 'Medium SPV', count: 20,
+    id: 'medium', label: 'Medium Special Purpose Vehicle', count: 20,
     items: [
-      { src: '/assets/SPV/CLASS 2 PUV bg.png', name: 'Class 2 PUV' },
-      { src: '/assets/SPV/CLASS 3 PUV bg.png', name: 'Class 3 PUV' },
-      { src: '/assets/SPV/FIRE TRUCK SPV  bg.png', name: 'Fire Truck SPV' },
+      { src: '/assets/SPV/CLASS 2 PUV bg.png', name: 'Class 2 Public Utility Vehicle' },
+      { src: '/assets/SPV/CLASS 3 PUV bg.png', name: 'Class 3 Public Utility Vehicle' },
+      { src: '/assets/SPV/FIRE TRUCK SPV  bg.png', name: 'Fire Truck Special Purpose Vehicle' },
       { src: '/assets/SPV/22 FOOTER- WING VAN bg.png', name: '22 Footer Wing Van' },
       { src: '/assets/SPV/GARBAGE COMPACTOR bg.png', name: 'Garbage Compactor' },
       { src: '/assets/SPV/MOBILE OFFICE bg.png', name: 'Mobile Office' },
@@ -100,7 +100,7 @@ const categories: Category[] = [
     ],
   },
   {
-    id: 'heavy', label: 'Heavy SPV', count: 12,
+    id: 'heavy', label: 'Heavy Special Purpose Vehicle', count: 12,
     items: [
       { src: '/assets/SPV heavy/DUMP TRUCK bg.png', name: 'Dump Truck' },
       { src: '/assets/SPV heavy/CORN DUMPTRUCK bg.png', name: 'Corn Dumptruck' },
@@ -178,3 +178,4 @@ export default function VehicleFilter() {
     </div>
   );
 }
+

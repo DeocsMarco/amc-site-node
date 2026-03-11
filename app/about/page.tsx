@@ -1,4 +1,4 @@
-import Image from 'next/image';
+﻿import Image from 'next/image';
 import type { Metadata } from 'next';
 import CountUp from '@/components/CountUp';
 
@@ -58,7 +58,7 @@ const timeline = [
     images: ['/assets/HISTORY/1945%20JARDINERA%20BUS.png'],
   },
   {
-    year: '1970–1989',
+    year: '1970â€“1989',
     title: 'Growth & Partnerships',
     desc: 'Establishment of Almazora Truck Body Builder and partnership with Mitsubishi, Hino, and Isuzu.',
     images: [
@@ -77,14 +77,14 @@ const timeline = [
     ],
   },
   {
-    year: '1994–1995',
+    year: '1994â€“1995',
     title: 'L300 Expansion',
     desc: 'Awarding of L300 FB contract and expansion of Plant 2 production.',
     images: ['/assets/HISTORY/1995%20L300%20PLANT.jpg'],
   },
   {
     year: '2008',
-    title: 'SPV Plant Established',
+    title: 'Special Purpose Vehicle Plant Established',
     desc: 'Establishment of the Special Purpose Vehicle Plant, expanding into fire trucks, ambulances, and custom-built vehicles.',
     images: [
       '/assets/HISTORY/2008%20AMC%20SPV1.jpg',
@@ -102,7 +102,7 @@ const timeline = [
   },
   {
     year: '2017',
-    title: 'Modernized PUV Program',
+    title: 'Modernized Public Utility Vehicle Program',
     desc: 'Launching of the Modernized Public Utility Vehicle program in partnership with Isuzu and Fuso.',
     images: [
       '/assets/HISTORY/2017%20isuzu%20puv%20class%202.png',
@@ -110,9 +110,9 @@ const timeline = [
     ],
   },
   {
-    year: '2018–2019',
+    year: '2018â€“2019',
     title: 'Heavy Vehicle Expansion',
-    desc: 'Awarding of L300 and L300 SPV Plant 2, expanding into heavy-duty special purpose vehicles.',
+    desc: 'Awarding of L300 and L300 Special Purpose Vehicle Plant 2, expanding into heavy-duty special purpose vehicles.',
     images: ['/assets/HISTORY/2018%20SCOOP%20END%20DUMPTRUCK.jpg'],
   },
   {
@@ -151,7 +151,7 @@ export default function AboutPage() {
   return (
     <div className="about-page">
 
-      {/* ① Hero */}
+      {/* â‘  Hero */}
       <section className="vp-hero">
         <div className="container">
           <h1 className="vp-hero__title">About Us</h1>
@@ -160,7 +160,7 @@ export default function AboutPage() {
         <div className="vp-hero__slant" />
       </section>
 
-      {/* ③ Company Intro */}
+      {/* â‘¢ Company Intro */}
       <section className="au-intro section">
         <div className="container">
           <div className="au-intro__layout">
@@ -199,7 +199,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* ② Stats Bar */}
+      {/* â‘¡ Stats Bar */}
       <section className="au-stats">
         <div className="container">
           <div className="au-stats__grid">
@@ -213,7 +213,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* ④ Vision */}
+      {/* â‘£ Vision */}
       <section className="au-vision section">
         <div className="container">
           <div className="au-vision__layout">
@@ -246,7 +246,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* ⑤ Mission */}
+      {/* â‘¤ Mission */}
       <section className="au-mission">
         <div className="vp-hero__slant au-mission__slant-top" />
         <div className="container">
@@ -267,7 +267,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* ⑥ History Timeline */}
+      {/* â‘¥ History Timeline */}
       <section className="au-history section">
         <div className="container">
           <span className="au-eyebrow">Our Story</span>
@@ -275,7 +275,7 @@ export default function AboutPage() {
           <div className="au-timeline">
             <div className="au-timeline__line" />
 
-            {/* Left column — even items */}
+            {/* Left column â€” even items */}
             <div className="au-timeline__col au-timeline__col--left">
               {timeline.filter((_, i) => i % 2 === 0).map((item, i) => (
                 <div key={i} className="au-milestone au-milestone--left reveal">
@@ -296,7 +296,7 @@ export default function AboutPage() {
               ))}
             </div>
 
-            {/* Right column — odd items, offset for stagger */}
+            {/* Right column â€” odd items, offset for stagger */}
             <div className="au-timeline__col au-timeline__col--right">
               {timeline.filter((_, i) => i % 2 !== 0).map((item, i) => (
                 <div key={i} className="au-milestone au-milestone--right reveal">
@@ -321,7 +321,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* ⑦ Clients */}
+      {/* â‘¦ Clients */}
       <section className="au-clients">
         <div className="vp-hero__slant au-clients__slant-top" />
         <div className="container">
@@ -340,3 +340,4 @@ export default function AboutPage() {
     </div>
   );
 }
+

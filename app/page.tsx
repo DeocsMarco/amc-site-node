@@ -4,10 +4,10 @@ import FeaturedCarousel from '@/components/FeaturedCarousel';
 const carouselVehicles = [
   { src: '/assets/BUS/12M AIRCON DELUXE BUS.png', alt: '12M Aircon Deluxe Bus' },
   { src: '/assets/SPV light/AMBULANCE.png', alt: 'Ambulance' },
-  { src: '/assets/SPV/FIRE TRUCK SPV  bg.png', alt: 'Fire Truck SPV' },
-  { src: '/assets/SPV/CLASS 2 PUV bg.png', alt: 'Class 2 PUV' },
+  { src: '/assets/SPV/FIRE TRUCK SPV  bg.png', alt: 'Fire Truck Special Purpose Vehicle' },
+  { src: '/assets/SPV/CLASS 2 PUV bg.png', alt: 'Class 2 Public Utility Vehicle' },
   { src: '/assets/SPV heavy/DUMP TRUCK bg.png', alt: 'Dump Truck' },
-  { src: '/assets/UV/TAMARAW UTILITY VEHICLE bg.png', alt: 'Tamaraw UV' },
+  { src: '/assets/UV/TAMARAW UTILITY VEHICLE bg.png', alt: 'Tamaraw Utility Vehicle' },
 ];
 
 const buses = [
@@ -213,4 +213,5 @@ export default function Home() {
     </>
   );
 }
+
 
